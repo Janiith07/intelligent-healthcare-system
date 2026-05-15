@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'DM Sans', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #1e293b;
+    background: #f8fafc;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f5f9;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 100px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+  }
+}
+
+@layer components {
+  /* Dashboard card base */
+  .card {
+    @apply bg-white rounded-3xl border border-slate-100 shadow-sm;
+  }
+
+  /* Form inputs base */
+  .input-base {
+    @apply w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-slate-800 text-sm 
+           placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all;
+  }
+
+  /* Status badge base */
+  .badge {
+    @apply text-xs font-bold px-2.5 py-1 rounded-full;
+  }
+
+  /* Primary button */
+  .btn-primary {
+    @apply py-3.5 px-7 bg-blue-900 hover:bg-blue-800 text-white font-bold rounded-xl 
+           transition-all text-sm shadow-lg shadow-blue-900/20;
+  }
+
+  /* Secondary button */
+  .btn-secondary {
+    @apply py-3 px-5 border-2 border-slate-200 text-slate-700 font-bold rounded-xl 
+           hover:border-blue-300 hover:bg-blue-50 transition-all text-sm;
+  }
+}
