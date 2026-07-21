@@ -45,7 +45,7 @@ cd peoples-health-care
 cd phc-backend
 npm install
 ```
-Create a `.env` file with your Mongo URI, JWT secret, and Groq API key, then start it:
+Add a Groq API key, then start it:
 ```bash
 npm run dev
 ```
