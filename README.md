@@ -1,6 +1,6 @@
 # People's Health Care 🏥 — Intelligent Medical Center Management System
 
-A full-stack medical center management platform built for a real client — Dr. M.T.D. Jayaweera of People's Health Care, Matara — as a Year 2, Semester 2 project for the IT2021 Artificial Intelligence and Machine Learning module at SLIIT.
+A full-stack medical center management platform built for a real client — Dr. M.T.D. Jayaweera of People's Health Care, Matara.
 
 This isn't a simulated coursework brief. It digitizes the day-to-day operations of a working medical center — appointments, prescriptions, lab tests, pharmacy inventory, billing, and equipment tracking — into one unified system, and layers five AI microservices directly into clinical workflow to support real diagnostic and administrative decisions.
 
