@@ -92,3 +92,17 @@ npm run dev
 
 ### Start order
 MongoDB → Backend → the three Flask AI services → the FastAPI RAG service → Frontend last. Once everything is running, open `http://localhost:5173` in your browser.
+
+## Demo Login Credentials
+
+Use these seeded accounts to log in and explore each role:
+
+| Role     | Email                          | Password     |
+|----------|--------------------------------|--------------|
+| Doctor   | Doctor@gmail.com               | Sajana@123   |
+| Cashier  | cashier@gmail.com              | Cashier@123  |
+| Pharmacy | theekshana@gmail.com           | Pharmacy@123 |
+| Admin    | admin@peopleshealthcare.com    | Admin@1234   |
+| Lab      | lab@gmail.com                  | Lab@123      |
+| Patient  | savi@gmail.com                 | savi@123     |
+| Patient  | dd@gmail.com                   | rahula13     |
