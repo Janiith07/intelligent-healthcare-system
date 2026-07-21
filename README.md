@@ -34,7 +34,13 @@ The system has 6 parts, each running in its own terminal: a database, the backen
 - MongoDB running locally, or a MongoDB Atlas connection string
 - Python 3.11+
 
-### 1. Backend (port 5001)
+### 1. Clone the repository
+```bash
+git clone https://github.com/Janiith07/peoples-health-care.git
+cd peoples-health-care
+```
+
+### 2. Backend (port 5001)
 ```bash
 cd phc-backend
 npm install
@@ -44,28 +50,28 @@ Create a `.env` file with your Mongo URI, JWT secret, and Groq API key, then sta
 npm run dev
 ```
 
-### 2. Heart Disease Predictor (port 5002)
+### 3. Heart Disease Predictor (port 5002)
 ```bash
 cd heart-disease-risk-predictor
 pip install -r requirements.txt
 python app.py
 ```
 
-### 3. Vitamin Deficiency Predictor (port 5003)
+### 4. Vitamin Deficiency Predictor (port 5003)
 ```bash
 cd vitamin-deficiency-predictor
 pip install -r requirements.txt
 python app.py
 ```
 
-### 4. Skin Disease Classifier (port 5050)
+### 5. Skin Disease Classifier (port 5050)
 ```bash
 cd skin-disease-classifier
 pip install flask flask-cors torch torchvision pillow numpy
 python app.py
 ```
 
-### 5. Clinical Guidelines RAG Service (port 8000)
+### 6. Clinical Guidelines RAG Service (port 8000)
 ```bash
 cd medical-guidelines-rag-service
 python3 -m venv venv
@@ -77,7 +83,7 @@ Add your Groq API key to a `.env` file, then run:
 uvicorn rag_api:app --reload --port 8000
 ```
 
-### 6. Frontend (port 5173)
+### 7. Frontend (port 5173)
 ```bash
 cd phc-frontend
 npm install
