@@ -17,7 +17,7 @@ This isn't a simulated coursework brief. It digitizes the day-to-day operations 
 
 Each AI feature runs as its own independent microservice, called by the main platform to assist doctors and patients in real time:
 
-- **🩺 Skin Disease Classifier** — a CNN trained from scratch to classify 9 categories of skin disease from an uploaded image, deployed as a doctor-facing decision support tool. Achieves 92.07% validation accuracy.
+- **🩺 Skin Disease Classifier** — a CNN trained from scratch to classify 9 categories of skin disease from an uploaded image, deployed as a doctor-facing decision support tool.
 - **💊 Vitamin Deficiency Predictor** — a stacking ensemble model that diagnoses likely vitamin-related conditions and predicts multiple deficiencies simultaneously from patient demographic and lifestyle data.
 - **❤️ Heart Disease Risk Predictor** — estimates a patient's heart disease risk and explains which factors drove the prediction, so doctors see the reasoning, not just a score.
 - **📚 Clinical Guidelines Assistant (RAG)** — a retrieval-augmented chatbot that answers clinical questions grounded in official medical guideline documents, so doctors get sourced, accurate answers instead of generic AI responses.
