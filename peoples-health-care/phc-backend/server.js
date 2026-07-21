@@ -95,7 +95,7 @@ app.use('/api/stocks',           stockRoutes);
 app.use('/api/pharmacy',         pharmacyRoutes);
 app.use('/api/bills',            billRoutes);
 app.use('/api/patient-bills',    patientBillRoutes);
-app.use('/api/vitamin-predict',  vitaminPredictRoutes);
+app.use('/api/vitamin',  vitaminPredictRoutes);
 app.use('/api/chatbot',          chatbotRoutes);
 app.use('/api/lab-bills',         labBillRoutes);
 app.use('/api/lab-request-bills', labRequestBillRoutes);
