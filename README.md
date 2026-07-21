@@ -36,7 +36,7 @@ The system has 6 parts, each running in its own terminal: a database, the backen
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/Janiith07/peoples-health-care.git
+https://github.com/Janiith07/intelligent-healthcare-system.git
 cd peoples-health-care
 ```
 
